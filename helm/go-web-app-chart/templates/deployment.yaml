@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: varora11/go-web-app:v1-10546472657
+        image: varora11/go-web-app::{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
