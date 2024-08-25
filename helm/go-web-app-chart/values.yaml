@@ -8,7 +8,7 @@ image:
   repository: varora11/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10546303066"
+  tag: "10546472657"
 
 ingress:
   enabled: false
